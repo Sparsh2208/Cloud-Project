@@ -1,0 +1,41 @@
+/* TeamPage.css */
+.team-page-container {
+  background: linear-gradient(to bottom right, #4CAF50, #2196F3); /* Gradient background */
+  color: #fff; /* Text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+  width: 60%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-details {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.team-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-list li {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .team-page-container {
+    width: 80%;
+  }
+}
